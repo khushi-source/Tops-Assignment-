@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Task:
+Create a contact form with the following fields:
+ Full name (text input)
+ Email (email input)
+ Phone number (tel input)
+ Subject (dropdown menu)
+ Message (textarea)
+ Submit button-->
+<form action="" method="">
+<label for="">Full name</label>
+<input type="text" placeholder="Enter Full name" name="value" required><br><br>
+<label for="">Email</label>
+<input type="email" placeholder="enter email" name="value"><br><br>
+<label for="">password</label>
+<input type="password" placeholder="Enter password" name="value" pattern="[A-Z][a-z0-9]{8,0}" minlength="8" maxlength="10"><br><br>
+<label for="">Phone number</label>
+<input type="tel" placeholder="Enter phone number" name="value" pattern="[0-9]{10}" maxlength="10"><br><br>
+<label for="">Menu</label>
+<input type="text" placeholder="menu" name="value">
+<select name="id">
+<option value="">-----Dropdown Menu-----</option>
+<option value="">Italian</option>
+<option value="">Indian</option>
+<option value="">South Indian</option>
+<option value="">Maxican</option>
+</select><br><br>
+Message:
+<!--<textarea cols="50" rows="20">hello world</textarea>-->
+<textarea maxlength="10">hello world</textarea><!--it will take only 10 letter not more than that--><br><br>
+<button>submit</button>
+</form>
+</body>
+</html>

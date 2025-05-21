@@ -1,0 +1,31 @@
+1)What is HTML?
+HTML is hypertext Markup language
+it is the language used to create web pages and display them on browsers
+
+Q-purpose of HTML in web development
+A-HTML is used for structuring web pages. It defines the content and structure of a webpage 
+
+2)Explain the basic structure of an HTML document. Identify the mandatory tags and
+their purposes.
+A-basic stctucture
+<!Doctype html>
+<html lang="eng">
+<head>
+<title>Document</title>
+</head>
+<body>
+</body>
+</html>
+
+mandatory tags:
+<html>, <head>, and <body>
+<html>-Root element of document
+<head>-contains metadata about HTML document such as title , character set and link to external files 
+*information not directly displayed on browser but it helps browser to understand document
+<body>-it contains visible content of document including text images which we want to display on browser
+
+3): What is the difference between block-level elements and inline elements in
+HTML? Provide examples of each.
+a-Block-level elements always start on a new line, take up the full space available within their parent, and can contain other elements (both block and inline)
+*Inline elements only occupying as much space as their content needs, and can only contain other inline elements. 
+

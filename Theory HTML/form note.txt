@@ -1,0 +1,35 @@
+q-1-What are HTML forms used for?
+A-HTML forms are used to collect user input on a webpage and send it to a server for processing. 
+
+purpose
+<input>-The <input> tag specifies an input field where the user can enter data
+<textarea>-The <textarea> tag defines a multi-line text input control
+<select>-The <select> element is used to create a drop-down list.
+<button>-the <button> tag defines a clickable button element on a webpage
+
+q-2
+Explain the difference between the GET and POST methods in form submission. 
+
+Get-
+Purpose: bring data from a server.
+Data Transmission: Data is passed in the URL's query string,
+Visibility: Data is visible in the browser's URL, history
+Security: Less secure as sensitive data might be exposed in the URL
+Examples: Searching a web page, 
+
+
+
+post-
+purpose-send data to server
+Data Transmission: Data is sent in the request body not URL like http
+Visibility: Data is not visible in the URL or browser history.
+Security: Considered more secure as sensitive data is hidden from the URL
+Examples: Submitting a form, uploading a file, creating a new user account
+
+When should each be used?
+GET is used for retrieving data like searching, filtering, or paging, whereas POST is used for submitting forms, uploading file create new account
+
+q-3
+What is the purpose of the label element in a form, and how does it improve
+accessibility?
+<label> is use to make form more descriptive with form control like an input, radio button, or checkbox and improve accessibility
